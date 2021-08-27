@@ -1,0 +1,35 @@
+body {
+    background-color:  #4B6587;
+}
+
+
+.guessSubmit, .guessField {
+    display: block;
+}
+
+.main {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+}
+
+
+.guessSubmit, .guessField {
+    width: 100%;
+    padding: 10px 25px;
+    margin: 5px 0;
+    font-size: x-large;
+    border-radius: 20px;
+    border: none;
+    color: #4B6587;
+    background-color: #fff;
+
+}
+
+label, .title {
+    font-size: 20px;
+    font-family:  sans-serif;
+    color: white;
+}
+
